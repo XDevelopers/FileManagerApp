@@ -24,7 +24,7 @@ namespace FileManagerApp
         /// </summary>
         private static readonly string[] Scopes = new[] { DriveService.Scope.Drive };
 
-        private static string ApplicationName = "Drive API .NET Filemanager"; //4/dy7Zz3pd18xuYcap8GdgEKsZOv541CaEKF0biUq92M8#
+        private static string ApplicationName = "Drive API .NET sismmar-filemanager"; //4/dy7Zz3pd18xuYcap8GdgEKsZOv541CaEKF0biUq92M8#
 
         public static void Main(string[] args)
         {
@@ -73,7 +73,7 @@ namespace FileManagerApp
             });
 
             // Create a folder if not exist
-            driveService.CreateFolder("Test", "folder to storage some scripts!");
+            driveService.CreateFolder("sismmar", "folder to storage some scripts!");
 
             // Get the latest file to Upload
 
@@ -92,8 +92,8 @@ namespace FileManagerApp
             //sismmar-sisges-d3f15fa8366e.p12
 
             string[] scopes = new string[] { DriveService.Scope.Drive }; // Full access
-            var keyFilePath = @"D:\Projects\Others\FileManagerApp\FileManagerApp\naonaoanaonaonaoa-d3f15fa8366e.p12";    // Downloaded from https://console.developers.google.com 
-            var serviceAccountEmail = "email";  // found https://console.developers.google.com 
+            var keyFilePath = @"C:\Users\m.lourenco\Downloads\sismmar-sisges-d3f15fa8366e.p12";    // Downloaded from https://console.developers.google.com 
+            var serviceAccountEmail = "sismmar-filemanager@sismmar-sisges.iam.gserviceaccount.com";  // found https://console.developers.google.com 
 
 
             //loading the Key file 
